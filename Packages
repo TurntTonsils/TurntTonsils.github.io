@@ -1,14 +1,14 @@
 Package: com.TurntTonsils.modelfinder
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: TurntTonsils
-Filename: ./debs/com.turnttonsils.modelfinder_1.0_iphoneos-arm.deb
-Size: 1176
-MD5sum: 2c0988c0b6f52e90d7ec9a053c3a0498
-SHA1: 07950ad08fd57b93a3633390958c96a66f8594b1
-SHA256: fec72ace40adbab7493371f8f496f0acc2e65737a42b6875429267d4d24bef82
+Filename: ./debs/com.turnttonsils.modelfinder_1.1_iphoneos-arm.deb
+Size: 1220
+MD5sum: bbcf0764f4ac2434de7f128c1fe884b3
+SHA1: 350834e75224ee405555126fb1c02e296c47ad3f
+SHA256: da7c3a577a0a446d34eec6037fb42cac97fd641594e31de7a8e38ef4849d5d3b
 Section: Tweaks
-Description: Run modelfinder in terminal. Takes the output of 'wifiFirmwareLoader -f' and 'uname - m.' Send output message to u/TurntTonsils on Reddit to help with remaking wifiFirmwareUpdater.
+Description: Run modelfinder AS ROOT in terminal. Takes the output of 'wifiFirmwareLoader -f' and 'uname - m.' Send output message to u/TurntTonsils on Reddit to help with remaking wifiFirmwareUpdater.
 Author: TurntTonsils
 Name: modelfinder
 

@@ -1,8 +1,8 @@
 Package: com.TurntTonsils.modelfinder
 Name: modelfinder
 Architecture: iphoneos-arm
-Description: Run modelfinder in terminal. Takes the output of 'wifiFirmwareLoader -f' and 'uname - m.' Send output message to u/TurntTonsils on Reddit to help with remaking wifiFirmwareUpdater.
+Description: Run modelfinder AS ROOT in terminal. Takes the output of 'wifiFirmwareLoader -f' and 'uname - m.' Send output message to u/TurntTonsils on Reddit to help with remaking wifiFirmwareUpdater.
 Maintainer: TurntTonsils
 Author: TurntTonsils
 Section: Tweaks
-Version: 1.0
+Version: 1.1

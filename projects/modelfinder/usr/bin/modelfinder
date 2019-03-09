@@ -14,6 +14,8 @@ REG=$( /usr/libexec/wifiFirmwareLoader -f | grep Regula | grep -v \"\" | sed -e 
 
 TXCAP=$( /usr/libexec/wifiFirmwareLoader -f | grep TxCap | grep -v \"\" | sed -e 's/.*wifi\/\(.*\)\".*/\1/')
 
+echo "This must be run as root. Otherwise 4 lines of output will be blank."
+
 echo "Respond with '1' to start."
 
 read response
