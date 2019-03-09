@@ -33,7 +33,7 @@ then
 
   echo $REG
 
-  echo $TAXCAP
+  echo $TXCAP
 
   echo "Send this output to u/TurntTonsils on Reddit and state your device."
 
