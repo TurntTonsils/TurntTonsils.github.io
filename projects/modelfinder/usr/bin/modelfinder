@@ -1,0 +1,45 @@
+#/bin/bash
+
+# Takes the output of uname -m and assigns it to modelName.
+
+modelName=$(uname -m)
+
+# Each of the following 4 lines of code parses the output of wifiFirmwareLoader -f, assigning each file to its own variable for later use
+
+FW=$( /usr/libexec/wifiFirmwareLoader -f | grep Firm | grep -v \"\" | sed -e 's/.*wifi\/\(.*\)\".*/\1/')
+
+NV=$( /usr/libexec/wifiFirmwareLoader -f | grep NVRAM | grep -v \"\" | sed -e 's/.*wifi\/\(.*\)\".*/\1/')
+
+REG=$( /usr/libexec/wifiFirmwareLoader -f | grep Regula | grep -v \"\" | sed -e 's/.*wifi\/\(.*\)\".*/\1/')
+
+TXCAP=$( /usr/libexec/wifiFirmwareLoader -f | grep TxCap | grep -v \"\" | sed -e 's/.*wifi\/\(.*\)\".*/\1/')
+
+echo "Respond with '1' to start."
+
+read response
+
+# Checks if user response is 1. User response is assigned to response.
+
+if [ $response -eq 1 ]
+then
+
+  echo "Model name: $modelName"
+
+  echo $FW
+
+  echo $NV
+
+  echo $REG
+
+  echo $TAXCAP
+
+  echo "Send this output to u/TurntTonsils on Reddit and state your device."
+
+else
+
+  echo "Ending Script"
+
+  exit 0
+
+fi
+exit 0

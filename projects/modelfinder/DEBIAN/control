@@ -1,0 +1,8 @@
+Package: com.TurntTonsils.modelfinder
+Name: modelfinder
+Architecture: iphoneos-arm
+Description: Takes the output of 'wifiFirmwareLoader -f' and 'uname - m.' Send output message to u/TurntTonsils on Reddit to help with remaking wifiFirmwareUpdater.
+Maintainer: TurntTonsils
+Author: TurntTonsils
+Section: Tweaks
+Version: 1.0
